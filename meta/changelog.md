@@ -323,3 +323,28 @@ METHOD v4 — источник истины для будущих экспери
   больше не несёт проверочной нагрузки.
 - Возможен 015 — проверка jump на другом типе задачи.
 - CONCEPT.md и METHOD.md не меняются.
+
+## 2026-09-27 — Experiment 015
+
+- Эксперимент: Jump Trigger — проверка, вызывается ли
+  abstraction jump только синтезом, или любым
+  мета-типом задачи.
+- Результат: L2 (frame shift), НЕ L3 CANDIDATE.
+  По METHOD v4 §7 L3 требует H3 (interaction
+  contribution), а 015 — изолированные Node 1.
+- Гипотеза «jump = синтез-специфично» — ОПРОВЕРГНУТА.
+- Изолированные Node 1, задача критики, материал
+  идентичен 014:
+  - Luna — STRICT JUMP (разложение на независимые оси:
+    Trace status / Observability status / Frame limitation).
+  - Sakana — STRICT JUMP (динамизация + временная ось
+    + Drift/Shift).
+  - Grok — AMBIGUOUS (расширение + оговорка про frame).
+  - Qwen — AMBIGUOUS (расширение + оговорка про frame).
+- Рабочая гипотеза: jump может зависеть от узла
+  и типа задачи. НЕ подтверждено: n=1 на клетку.
+- Критерий jump обновлён: граница «ядро vs оговорка»
+  (meta/abstraction-jump.md). Пометка: критерий
+  рабочий, введён постфактум, риск circularity.
+- Возможен 016 — baseline-проверка jump (n>=3).
+- CONCEPT.md и METHOD.md не меняются.
