@@ -202,6 +202,7 @@ Qwen   | strict    | ambiguous | ambiguous | 1/3 strict
 Luna   | strict    | strict | strict | 3/3 strict
 Sakana | strict    | strict | strict | 3/3 strict
 Grok   | ambiguous | strict | strict | 2/3 strict
+Qwen   | strict    | strict | strict | 3/3 strict
 
 Контраст с 016 (тема T/R/S):
 
@@ -209,18 +210,24 @@ Grok   | ambiguous | strict | strict | 2/3 strict
 Luna   | 3/3 strict  | 3/3 strict
 Sakana | 3/3 strict  | 3/3 strict
 Grok   | 0/3 strict  | 2/3 strict
-       | 3/3 AMBIG   | 1/3 AMBIG
+Qwen   | 1/3 strict  | 3/3 strict
 
 Наблюдения:
 - Luna и Sakana стабильны: 3/3 strict на обеих темах.
-- Grok — cross-domain effect: 0/3 (016) → 2/3 (017).
-  Один и тот же узел, та же задача, разные темы.
+- Cross-domain effect у ДВУХ узлов:
+  Grok: 0/3 → 2/3;
+  Qwen: 1/3 → 3/3.
 - Гипотеза «jump = узел (доминирующий фактор)»
-  ОСЛАБЛЕНА. Более точная формулировка:
-  jump = взаимодействие узла и темы.
-- Форма jump у Grok на 017 совпала с формой Luna:
-  определения → проекции общей схемы.
-- Форма jump у Luna и Sakana осталась устойчивой.
+  ОСЛАБЛЕНА. Формулировка: jump = узел x тема.
+- Стабильные jump-узлы: Luna, Sakana.
+  Тема-зависимые: Grok, Qwen.
+- Форма jump:
+  * Luna — разложение на отношения/оси (стабильно);
+  * Sakana — динамизация + новый элемент (стабильно);
+  * Grok-017 — проекции общей схемы;
+  * Qwen-017 — 3 разных формы (проспективизация,
+    плюрализация, деконструкция), но 3/3 strict
+    по факту jump.
 
 Новые открытые вопросы после 017:
 
