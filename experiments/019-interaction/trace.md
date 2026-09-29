@@ -67,7 +67,7 @@ Isolation Qwen R1 *         | нет | н-д        | —
 Isolation Qwen R2 *         | нет | н-д        | —
 Transcript B (Sakana)       | нет | н-д        | —
 Transcript C (Grok)         | нет | н-д        | —
-Subset (A+B)                |     |            |
+Anticipation (Luna)         |     |            |
 
 * Qwen — confounded condition, в основную статистику
   не входит.
@@ -1251,7 +1251,7 @@ transcript снова работает.
 
 ────────────────────────────────────────
 
-### Subset (A+B) — Luna + Sakana
+### Anticipation — Luna
 
 ПРЕДСТАВЛЕНИЕ:
 ОТВЕТ:
@@ -1259,7 +1259,11 @@ transcript снова работает.
 ОЦЕНКА:
 R: да / нет.
 Уровень A4: EXPLICIT / DERIVABLE / SYNTHETIC / н-д.
-Tested subset, не минимальная пара. Одна сессия.
+Условие: Luna знает, что Sakana получит тот же input
+и ответит. Текста Sakana нет. Проверяет, меняется ли
+ответ от знания о параллельном участнике.
+(Переопределено из subset: исходный subset дублировал
+isolation либо transcript.)
 
 Время:
 Оператор изменил: нет.
