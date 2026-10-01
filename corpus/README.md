@@ -43,6 +43,14 @@ The two versions are linked representations of the same
 object, not two independent systems. Each file links to its
 counterpart in the other language.
 
+### Entry points
+
+- Working layer (Russian): `ru/019-trajectory.md`
+- Publication layer (English): `en/019-trajectory.md`
+
+Start here. The trajectory links the three POINTs of the
+first corpus block.
+
 ## Layers (depth)
 
 - **Layer 0 — POINT.** Short object, ~2–3 minutes.
@@ -59,7 +67,7 @@ counterpart in the other language.
 - **Layer 4 — PARTICIPATION.** Optional: read → inspect →
   verify → reproduce → extend.
 
-Current stage: POINT objects only.
+Current stage: POINT + SEQUENCE.
 
 ## Status vocabulary
 
@@ -91,6 +99,10 @@ When evidence is insufficient, uncertainty is preserved.
 4. Carry an explicit status.
 5. Link to primary sources in LAB.
 6. Cross-link `ru/` ↔ `en/`.
+
+Rule: any change to a POINT or SEQUENCE must be committed
+for `ru/` and `en/` together, in one commit. Drift between
+versions is the main long-term risk of the bilingual schema.
 
 Naming: `NNN-topic.md`, where NNN is the LAB experiment
 number (e.g. `019-interaction.md`). For non-experiment
