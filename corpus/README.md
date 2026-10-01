@@ -98,11 +98,22 @@ objects, use a short descriptive slug.
 
 ## Current contents
 
-- `ru/019-interaction.md` — Experiment 019: first designed
-  test of Interaction > Node. Zero R across all configurations.
-  Methodological findings: transcript-control, dialogue vs
-  transcript, anticipation.
-- `en/019-interaction.md` — English mirror.
+- `ru/019-interaction.md` / `en/019-interaction.md` —
+  POINT. Experiment 019: first designed test of
+  Interaction > Node. Zero R across all configurations.
+  Methodological findings: transcript-control,
+  dialogue vs transcript, anticipation.
+- `ru/transcript-control.md` / `en/transcript-control.md` —
+  POINT. Transcript-control as a content-transfer control.
+  Confirmed on Sakana and Grok (019). H3-discriminating
+  capability not yet tested on positive Target case.
+- `ru/target-miss.md` / `en/target-miss.md` — POINT.
+  TARGET_MISS — a fourth class of outcome. Not H1 YES,
+  not H3 not supported, not content-effect.
+- `ru/019-trajectory.md` / `en/019-trajectory.md` —
+  SEQUENCE. Links the three POINTs into a research
+  trajectory: question -> experiment -> null result ->
+  methodological finding -> new class -> next question.
 
 ## Related documents
 
