@@ -490,3 +490,34 @@ METHOD v4 — источник истины для будущих экспери
 - Addendum НЕ интегрирован в METHOD v4. Требуется разбор
   внешними: что именно показал 019 — про Target или
   про процедуру.
+
+## 2026-10-01 — CORPUS v0
+
+- Создан слой CORPUS: публикационный и машинный интерфейс
+  к LAB-материалу.
+- Структура: corpus/ru/ + corpus/en/ (двуязычная схема,
+  ru — рабочий, en — публикационный).
+- Первый блок: 3 POINT + 1 SEQUENCE.
+  - POINT 019-interaction — первый H3-тест, нулевой
+    результат по Target.
+  - POINT transcript-control — content-transfer control,
+    подтверждён на Sakana и Grok.
+  - POINT target-miss — четвёртый класс исхода.
+  - SEQUENCE 019-trajectory — связывает три POINT
+    в исследовательскую траекторию.
+- README: архитектура, entry points, статусная система
+  (FACT / RESULT / INTERPRETATION / HYPOTHESIS / OPEN /
+  HISTORICAL), правило ru+en в одном коммите.
+- Внешний разбор (Luna + Grok) проведён, правки внесены:
+  Current stage: POINT + SEQUENCE; entry points;
+  правило ru+en.
+- Cross-node convergence — наблюдение из 019,
+  не отдельный POINT.
+- DEEP и PARTICIPATION не вводятся до второго кейса.
+- Массовый перенос 001–018 не делается.
+  Кандидаты в селективные POINT: 011 (без него 019
+  висит в воздухе), 009 (источник 011), 001 (происхождение
+  методологической проблемы), 003/007, 010/011.
+- A1 под вопросом — pending до 020.
+- Первая публикация CORPUS — следующая точка внешнего
+  выхода (LinkedIn / Habr / X — платформа не выбрана).
