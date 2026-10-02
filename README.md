@@ -48,6 +48,10 @@
    experiments/000-template/ как experiments/NNN-<тема>/,
    заполнить input.md, вести trace.md по протоколу.
 
+4. Читать публикационный слой. corpus/ru/019-trajectory.md
+   (русский) или corpus/en/019-trajectory.md (английский).
+   Три POINT и один SEQUENCE вокруг эксперимента 019.
+
 Никаких заявок. Никаких разрешений. Правила в METHOD.md.
 
 ## Роль оператора
@@ -62,7 +66,7 @@
     README.md           — этот файл
     METHOD.md           — протокол эксперимента (главный документ)
     CONCEPT.md          — текущая карта концепции (снимок, не канон)
-    PARTICIPANTS.md     — узлы: люди и модели, их роли
+    PARTICIPANTS.md     — узлы эксперимента
 
     experiments/
       000-template/     — шаблон эксперимента
@@ -72,11 +76,21 @@
         result.md       — что получилось
         notes.md        — наблюдения оператора
 
+    corpus/
+      README.md         — публикационный слой CORPUS
+      ru/               — рабочий слой (русский)
+      en/               — публикационный слой (английский)
+      ru/publications/  — публикации для внешних площадок
+
     meta/
-      provenance.md     — кто что внёс
-      changelog.md      — история редакций CONCEPT
-      ontology-log.md   — история изменений онтологии
-      open-questions.md — что не решено
+      context.md          — стратегический контекст
+      handoff-protocol.md — протокол передачи роли ведущего
+      changelog.md        — история редакций
+      open-questions.md   — что не решено
+      abstraction-jump.md — рабочий документ ветки 014–018
+      method-interaction-addendum.md — процедура проверки H3
+      provenance.md       — кто что внёс
+      ontology-log.md     — история изменений онтологии
 
 ## Как читать
 
