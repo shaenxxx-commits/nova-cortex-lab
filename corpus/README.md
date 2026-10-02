@@ -127,6 +127,19 @@ objects, use a short descriptive slug.
   trajectory: question -> experiment -> null result ->
   methodological finding -> new class -> next question.
 
+## Publications
+
+Publication files live in `ru/publications/` and
+`en/publications/`. Each file is a prepared external
+piece (Habr, LinkedIn, X, personal blog) derived from
+a CORPUS object.
+
+Current:
+
+- `ru/publications/habr-2026-10-emergence.md` —
+  Russian article for Habr, derived from
+  `ru/019-trajectory.md`.
+
 ## Related documents
 
 - `meta/context.md` (LAB) — strategic context: MAIA / LAB / CORPUS.
