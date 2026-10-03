@@ -126,6 +126,13 @@ objects, use a short descriptive slug.
   SEQUENCE. Links the three POINTs into a research
   trajectory: question -> experiment -> null result ->
   methodological finding -> new class -> next question.
+- `ru/020-named-divergence.md` / `en/020-named-divergence.md` —
+  POINT. Experiment 020: first positive H3 test.
+  Named divergence. L3 / INTERACTION-ONLY, n=1,
+  replication pending. Four methodological results:
+  preflight as filter, transcript-control on positive
+  Target, amplification != divergence, account-leak
+  beyond Qwen.
 
 ## Publications
 
