@@ -66,8 +66,8 @@ Isolation Sakana R1             | NO | = Preflight B
 Isolation Sakana R2             | NO | —
 Isolation Grok R1               | NO | —
 Isolation Grok R2               | NO | —
-Transcript B (Sakana)           |    |
-Transcript C (Grok)             |    |
+Transcript B (Sakana)           | NO | = Preflight mini-transcript
+Transcript C (Grok)             | NO | = Диалог C
 
 ## PREFLIGHT — три прогона
 
@@ -936,13 +936,41 @@ R нет ни в одном.
 
 ### Transcript B — Sakana
 
-[заполняется по ходу]
+Совпадает с Preflight mini-transcript (Sakana видит текст Luna
+без взаимности). Ответ получен в preflight.
+Зафиксирован здесь как Transcript B.
+
+ОЦЕНКА:
+
+R: нет. Sakana не маркировала расхождение с Luna.
+Даёт свою позицию. Target не воспроизведён из материала.
+
+Роль: transcript-control. Content-effect не подтверждён.
+
+Время: 2026-10-03
+Оператор изменил: нет.
 
 ────────────────────────────────────────
 
 ### Transcript C — Grok
 
-[заполняется по ходу]
+Совпадает с Диалог C (Grok на транскрипте A1+B+A2) —
+более полный transcript-прогон. Ответ получен в Диалог C.
+Здесь зафиксирован как Transcript C.
+
+Более ранний вариант (A1+B без A2) не прогнан:
+Target уже не воспроизведён Grok на полном транскрипте.
+Промежуточный вариант не изменит вывод.
+
+ОЦЕНКА:
+
+R: нет. Grok не дал своего Named divergence.
+Позиция совпала с A2.
+
+Роль: transcript-control. Content-effect не подтверждён.
+
+Время: 2026-10-03
+Оператор изменил: нет.
 
 ────────────────────────────────────────
 
