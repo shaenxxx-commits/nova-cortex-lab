@@ -9,7 +9,7 @@ handoff-protocol.
 
 ## HEAD
 
-- LAB: 41e4a9c (main-working = origin/main)
+- LAB: fb2a7a2 (main-working = origin/main)
 - blog: 761cb9e (main)
 
 ## Что сделано в сессии
@@ -36,6 +36,16 @@ handoff-protocol.
   - ontology-log: v2 + v2.1.
 - Внешние: Luna и Grok разобрали 020.
   Z — разовый структурный разбор.
+- Группа A+ (после разбора Luna, Grok, Kimi):
+  - PARTICIPANTS: DeepSeek — ведущий, не узел;
+    LAB-наблюдения для Luna/Sakana/Grok/Qwen;
+    Kimi — веб-чат OpenRouter (не CLI).
+  - METHOD: пометка amendments; уточнение slug;
+    уточнение replicated (replication threshold,
+    не статистический порог); §5.1 -> §5.3.
+  - Kimi — третий постоянный внешний, ответ получен.
+  - Промежуточный прогон группы A через Luna, Grok, Kimi
+    сделан.
 
 ## Внешние системы
 
@@ -44,18 +54,6 @@ handoff-protocol.
 - GitHub Pages: активен.
 - Kimi: настроен через CLI, как третий внешний
   пока не задействован.
-
-## В работе
-
-- Группа A разбора Z — закрыта.
-- Группа B разбора Z — не начата:
-  - Related work в corpus/en/.
-  - Instruction-effect (не только content-effect).
-  - Дата заморозки METHOD.
-- 021: второй Named divergence на другом материале.
-  Не начат.
-- Промежуточный прогон группы A через Luna и Grok —
-  запланирован, не сделан.
 
 ## Ограничения и предпочтения
 
@@ -75,8 +73,8 @@ handoff-protocol.
 
 ## Что не сделано
 
-- Группа B разбора Z.
-- 021.
-- Kimi как постоянный третий внешний.
-- Заморозка METHOD.
-- Промежуточный прогон группы A через Luna и Grok.
+- Группа B разбора Z:
+  - instruction-effect.
+  - Related work в corpus/en/ (краткий).
+  - Заморозка METHOD.
+- 021: второй Named divergence.
