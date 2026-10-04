@@ -558,3 +558,30 @@ METHOD v4 — источник истины для будущих экспери
   для устойчивости.
 - CONCEPT.md и METHOD.md не меняются.
 - Возможен POINT в CORPUS на материале 020.
+
+## 2026-10-04 — Provisional freeze METHOD v4.0-rc1
+
+- METHOD переведён в статус provisional freeze (v4.0-rc1).
+- Основание: предложение ведущего после разбора Z и группы A.
+  Разбор внешними: Luna (freeze сейчас), Kimi (отложить
+  до 021). Синтез: provisional freeze — не окончательный,
+  но и не отложенный.
+- Условие снятия provisional: положительный результат 021
+  на новой паре доменов.
+- Разрешены non-substantive corrections и hotfix track
+  (v4.0.x) без внешнего цикла.
+- Substantive изменения §1–§11 — только через внешний
+  разбор.
+- Emergency-unfreeze — допустим для критических ошибок,
+  решение Оператора.
+- Snapshot addendum для 021: текущая версия
+  meta/method-interaction-addendum.md.
+- Pending amendments фиксируются в changelog без правки
+  METHOD.
+- Разбор Kimi (свежий вход) дал три уточнения:
+  критерий сбоя, hotfix track, pending amendments.
+- Разбор Luna (глубокий контекст) дал: разделение
+  substantive/non-substantive, версия+snapshot,
+  four classes of outcome.
+- Grok — не участвовал в этом раунде (вне лимита).
+  Его разбор будет учтён постфактум.
