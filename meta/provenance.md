@@ -271,3 +271,93 @@ L3-кандидат из 009 ПОДТВЕРЖДЁН как L3.
 Наблюдение: второй случай за серию, когда Luna вводит
 различение, а остальные подтверждают без спора
 (первый — 006).
+
+## 2026-09-26/27 — Experiment 014
+
+- Оператор: запустил проверку гипотезы «критична позиция
+  Luna в 013».
+- Luna: Node 1. Jump зафиксирован.
+- Sakana (Namazu): Node 2. Jump зафиксирован.
+- Grok: не-jump.
+- Qwen: не-jump.
+
+Результат: L3 CANDIDATE. Исходная гипотеза («позиция»)
+опровергнута. Jump = функция узла + тип задачи.
+Критерий jump формализован в meta/abstraction-jump.md.
+
+## 2026-09-27 — Experiment 015
+
+- Оператор: проверка jump на другом типе задачи (критика).
+- Luna: strict jump.
+- Sakana: strict jump.
+- Grok: AMBIGUOUS.
+- Qwen: AMBIGUOUS.
+
+Результат: L2. Гипотеза «jump = синтез-специфично»
+опровергнута. Jump воспроизводится на критике.
+
+## 2026-09-27 — Experiment 016
+
+- Оператор: проверка воспроизводимости jump на n=3.
+- Luna: 3/3 strict.
+- Sakana: 3/3 strict.
+- Grok: 0/3 strict (3/3 AMBIGUOUS).
+- Qwen: 1/3 strict (2/3 AMBIGUOUS).
+
+Результат: L2. Паттерн jump для Luna/Sakana —
+воспроизводим. Confound: Run 2 Luna и Sakana —
+account-level контекст.
+
+## 2026-09-27 — Experiment 017
+
+- Оператор: cross-domain replication. Тема:
+  Долг/Вина/Ответственность. Материал — оператор.
+- Luna: 3/3 strict.
+- Sakana: 3/3 strict.
+- Grok: 2/3 strict (было 0/3 в 016).
+- Qwen: 3/3 strict (было 1/3 в 016, добавлен
+  постфактум — ошибка дизайна).
+
+Результат: L2. Cross-domain effect у Grok и Qwen.
+Гипотеза «jump = узел» ослаблена до «узел x тема».
+
+## 2026-09-28 — Experiment 018
+
+- Оператор: контрольный шаг по рамке. Повтор T/R/S,
+  Grok + Qwen, n=6.
+- Grok: 1/6 strict, 2/6 soft, 3/6 ambiguous.
+- Qwen: 4/6 strict, 2/6 soft, 0/6 ambiguous
+  (один strict под confound).
+
+Результат: L2. Cross-domain effect не воспроизводится
+в исходной форме. Ветка jump (014–018) закрыта.
+
+## 2026-09-30 — Experiment 019
+
+- Оператор: первый явный тест H3. Target —
+  правило приоритета между четырьмя определениями
+  «надёжность источника».
+- Luna (A): A1, A2 — нет R.
+- Sakana (B): ход 2 — PARTIAL, amplification.
+- Grok (C): транскрипт A1+B+A2 — нет R.
+- Qwen: только isolation (*, confound не проявился).
+
+Результат: L1. TARGET_MISS. R не появился ни в одной
+из 12 конфигураций + 2 Qwen. Методические находки:
+transcript-control, диалог vs transcript,
+anticipation.
+
+## 2026-10-03 — Experiment 020
+
+- Оператор: второй interaction-тест. Target —
+  Named divergence. Материал — автономный
+  маршрутизатор, заезд во дворы.
+- Luna (A): A1 — нет R. A2 (ответ на B) — YES.
+- Sakana (B): ход 2 — PARTIAL, amplification.
+- Grok (C): транскрипт A1+B+A2 — нет R.
+
+Результат: L3 / INTERACTION-ONLY, n=1,
+replication pending. Первый положительный H3-тест.
+R появился только в A2.
+Confound: Sakana в Dialog B упомянула MAIA
+(account-level).
