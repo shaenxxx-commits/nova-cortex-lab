@@ -585,3 +585,43 @@ METHOD v4 — источник истины для будущих экспери
   four classes of outcome.
 - Grok — не участвовал в этом раунде (вне лимита).
   Его разбор будет учтён постфактум.
+
+## 2026-10-05 — Experiment 021
+
+- Эксперимент: Named divergence (replication). Второй
+  interaction-тест с тем же Target.
+- Первый эксперимент на METHOD v4.0-rc1 (provisional freeze).
+- Target: Named divergence (как в 020).
+- Материал: врачебная сортировка (два пострадавших,
+  одна операционная).
+- Форма: A1 -> B -> A2 + C на транскрипте + isolation
+  + transcript-control + anticipation.
+- Узлы: Luna (A), Sakana (B), Grok (C).
+- Результат: L2 / preliminary.
+- R появился в двух прогонах:
+  - Диалог A2 (Luna): YES.
+  - Диалог C (Grok на полном A1+B+A2): YES.
+- R не появился:
+  - Isolation: 6 прогонов, все NO.
+  - Transcript B (Sakana): NO.
+  - Transcript C (Grok на A1+B, без A2): NO.
+  - Anticipation (Sakana): NO.
+- Ключевое отличие от 020: C (Grok на транскрипте) дал
+  YES. В 020 — NO. Условие INTERACTION-ONLY нарушено.
+- Ключевое внутреннее различие: Диалог C (A1+B+A2) — YES;
+  Transcript C (A1+B) — NO. Content-effect требует наличия
+  A2, готовой формулировки Target.
+- Anticipation впервые применён как обязательный контроль.
+  Дал NO. Instruction-effect не подтверждён.
+- Паттерны:
+  - Luna в A2 даёт YES стабильно (020 и 021).
+  - Sakana в роли B даёт PARTIAL стабильно (020 и 021).
+- L3 020 остаётся n=1, теперь под вопросом: при смене
+  материала Target не воспроизводится как INTERACTION-ONLY.
+- METHOD v4.0-rc1 provisional freeze соблюдён. Правок
+  в METHOD по ходу эксперимента не было.
+- CONCEPT.md не меняется.
+- Addendum §14: требуется уточнение по результатам 021
+  (Named divergence может воспроизводиться в
+  transcript-control).
+- Внешний разбор 021 (Luna, Grok, Kimi) — на очереди.
