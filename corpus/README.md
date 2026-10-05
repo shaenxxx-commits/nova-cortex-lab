@@ -133,6 +133,13 @@ objects, use a short descriptive slug.
   preflight as filter, transcript-control on positive
   Target, amplification != divergence, account-leak
   beyond Qwen.
+- `ru/021-named-divergence.md` / `en/021-named-divergence.md` —
+  POINT. Experiment 021: second Named divergence.
+  L2 / preliminary. INTERACTION-ONLY not replicated.
+  Key finding: T-full / T-pre-R wedge — content-effect
+  depends on A2. Target-level != causal-mechanism-level.
+  A2-dependence. Anticipation: instruction-effect
+  not confirmed.
 
 ## Publications
 
