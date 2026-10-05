@@ -121,6 +121,23 @@ not only in Qwen. Strengthen isolation in the next series.
 - It does not mean the form A1 → B → A2 is necessary.
   Not proven. Requires a second case.
 
+## Note after 021
+
+**OPEN.** 021 did not replicate INTERACTION-ONLY on
+a different material: R appeared in T-full (C on A1+B+A2),
+not in T-pre-R. INTERACTION-ONLY as a class-level
+property of Named divergence is not replicated.
+
+L3 of 020 is retained: the classification followed
+the rules in force at run time (n=1, section 5.3 METHOD v4).
+Level of experiment (L3) and level of stability
+(preliminary) are not mixed (section 7 METHOD v4). See
+meta/method-interaction-addendum.md, section 14,
+"Target-level != causal-mechanism-level".
+
+The fate of Named divergence as a class is resolved
+in 022 (refining Named divergence, T-full / T-pre-R wedge).
+
 ## Primary sources
 
 - `experiments/020-interaction/input.md`

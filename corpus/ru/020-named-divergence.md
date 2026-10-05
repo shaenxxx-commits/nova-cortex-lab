@@ -118,6 +118,24 @@ pending.
 - Не значит, что форма A1 → B → A2 необходима.
   Не доказано. Требует второго случая.
 
+## Примечание после 021
+
+**OPEN.** 021 не воспроизвёл INTERACTION-ONLY при
+смене материала: R появился в T-full (C на A1+B+A2),
+не в T-pre-R. INTERACTION-ONLY как свойство класса
+Named divergence не replicated.
+
+L3 020 сохраняется: классификация соответствовала
+правилам на момент прогона (n=1, раздел 5.3 METHOD v4).
+Уровень эксперимента (L3) и уровень устойчивости
+(preliminary) не смешиваются (раздел 7 METHOD v4). См.
+meta/method-interaction-addendum.md, раздел 14,
+«Target-level != causal-mechanism-level».
+
+Решение по судьбе Named divergence как класса —
+в 022 (уточняющий Named divergence, клин
+T-full / T-pre-R).
+
 ## Первоисточники
 
 - `experiments/020-interaction/input.md`
