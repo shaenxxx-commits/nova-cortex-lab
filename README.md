@@ -86,6 +86,9 @@
     meta/
       context.md          — стратегический контекст
       handoff-protocol.md — протокол передачи роли ведущего
+      handoff-current.md  — живой снимок состояния
+      handoffs/           — архив снимков (append-only)
+      operator-preferences.md — манера работы оператора
       changelog.md        — история редакций
       open-questions.md   — что не решено
       abstraction-jump.md — рабочий документ ветки 014–018
