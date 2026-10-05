@@ -386,3 +386,77 @@ interaction слиты.
 
 Применяется в 021. При подтверждении на втором случае —
 обязательный стандарт для L3 по Named divergence.
+
+### Режимы воспроизведения Named divergence
+
+Уточнение после 021.
+
+Named divergence — один Target-класс. Режим
+воспроизведения зависит от случая, не от Target.
+
+Два наблюдаемых режима:
+
+1. Interaction-only. R появляется в диалоге (A2),
+   не воспроизводится ни в isolation, ни в transcript.
+   020: R в A2 (Luna), C (Grok) на полном транскрипте — NO.
+
+2. Content-effect через A2. R появляется в диалоге (A2),
+   воспроизводится в transcript при наличии A2.
+   021: R в A2 (Luna), C (Grok) на полном A1+B+A2 — YES.
+   При этом C (Grok) на A1+B без A2 — NO.
+
+### Target-level != causal-mechanism-level
+
+Named divergence — это форма Target. INTERACTION-ONLY —
+один из возможных механизмов появления R, не свойство
+Target.
+
+Утверждение «Named divergence = INTERACTION-ONLY»
+не replicated. 020 дал один случай interaction-only,
+021 дал другой случай content-effect.
+
+### A2-dependence
+
+Ключевое наблюдение 021: content-effect требует наличия
+готовой формулировки R в тексте A2. Без A2 — R не
+воспроизводится.
+
+Клин T-full vs T-pre-R:
+
+- T-full: C получает A1+B+A2.
+- T-pre-R: C получает A1+B, без A2.
+
+Если T-full = YES, T-pre-R = NO — content-effect
+зависит от A2. Если оба YES — R читается из любого
+материала. Если оба NO — R не воспроизводится.
+
+T-full / T-pre-R — режимы transcript-control
+(без ожидания ответа A), не путать с «Диалог C»
+(C как наблюдатель полного диалога в батарее).
+
+Клин T-full / T-pre-R — диагностический инструмент
+для разбора механизма, не критерий уровня L3.
+
+### Уточнение к §14
+
+Ранее §14 говорил: «Named divergence подтверждена
+на 020 (L3, INTERACTION-ONLY, n=1)».
+
+С учётом 021 корректная формулировка:
+
+- 020 — L3 / preliminary, n=1. Формально INTERACTION-ONLY
+  в рамках того эксперимента. Не replicated.
+- 021 — L2 / preliminary. Content-effect через A2.
+- Named divergence как Target-класс не является
+  INTERACTION-ONLY по умолчанию.
+
+Для строгого L3 по Named divergence требуется:
+
+- R появился в диалоге (A2 или B);
+- R отсутствует в isolation (6 прогонов);
+- R отсутствует в T-full (C на A1+B+A2).
+
+T-pre-R (C на A1+B без A2) — диагностический инструмент
+для разбора механизма, не критерий уровня. Применяется
+при YES у C на T-full: показывает, зависит ли
+content-effect от наличия A2.
