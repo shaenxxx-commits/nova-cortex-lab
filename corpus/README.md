@@ -140,6 +140,15 @@ objects, use a short descriptive slug.
   depends on A2. Target-level != causal-mechanism-level.
   A2-dependence. Anticipation: instruction-effect
   not confirmed.
+- `ru/022-named-divergence.md` / `en/022-named-divergence.md` —
+  POINT (OPEN). Experiment 022: third Named divergence
+  did not take place. Preflight not passed on seven
+  consecutive materials. Key observation: a working
+  procedural default blocks divergence in isolation.
+  No-default hypothesis (working, not verified). Lessons
+  on material selection: preflight iteration cap,
+  confirmation-by-material-design, blind design
+  removes priming but not framing.
 
 ## Publications
 
