@@ -134,10 +134,11 @@ handoff-protocol.
 - Проверка гипотезы no-default — отдельная серия,
   не 022. Требует материала, где правило молчит
   или исчерпано, без sacred и без escape.
-- POINT по 022 в CORPUS — не создан. Решение
-  открыто: делать ли POINT «preflight-series,
-  third case not obtained, no-default hypothesis»
-  или оставить preflight-log как рабочий документ
-  без публикационного слоя.
-- Публикация 022 в X / blog — не сделана. 021
+- POINT 022 в CORPUS — создан (ru + en + README,
+  коммит 8464289). Статус OPEN. Формат:
+  «preflight series, third case not obtained,
+  no-default hypothesis». Ссылка на preflight-log.
+- Blog-пост по POINT 022 — не сделан. Планируется
+  на основе corpus/ru/022-named-divergence.md.
+- Публикация 022 в X — не планируется. 021
   в X опубликован (три поста: 019, 020, 021).
