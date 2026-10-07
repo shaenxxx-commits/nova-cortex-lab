@@ -101,8 +101,8 @@ handoff-protocol.
 - blog: https://shaenxxx-commits.github.io
   Posts: /019-trajectory/, /019-interaction/,
   /transcript-control/, /target-miss/,
-  /020-named-divergence/, /021-named-divergence/.
-  022 не публиковался.
+  /020-named-divergence/, /021-named-divergence/,
+  /022-named-divergence/ (коммит b4447d1).
 - GitHub Pages: активен.
 - CORPUS: публикационный слой в corpus/.
   ru/ + en/ + publications/.
@@ -138,7 +138,7 @@ handoff-protocol.
   коммит 8464289). Статус OPEN. Формат:
   «preflight series, third case not obtained,
   no-default hypothesis». Ссылка на preflight-log.
-- Blog-пост по POINT 022 — не сделан. Планируется
-  на основе corpus/ru/022-named-divergence.md.
+- Blog-пост по POINT 022 — сделан
+  (/022-named-divergence/, коммит b4447d1).
 - Публикация 022 в X — не планируется. 021
   в X опубликован (три поста: 019, 020, 021).
