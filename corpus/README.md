@@ -149,6 +149,13 @@ objects, use a short descriptive slug.
   on material selection: preflight iteration cap,
   confirmation-by-material-design, blind design
   removes priming but not framing.
+- `ru/related-work.md` / `en/related-work.md` —
+  POINT (INTERPRETATION). Positioning of LAB relative
+  to adjacent lines of research: multi-agent LLM
+  systems, emergent abilities, swarm intelligence,
+  aggregation, content-effect vs interaction-effect.
+  No bibliography; describes what LAB does and does
+  not do, and methodological contributions.
 
 ## Publications
 
