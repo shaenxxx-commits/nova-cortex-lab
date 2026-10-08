@@ -46,8 +46,8 @@ handoff-protocol.
 
 ## HEAD
 
-- LAB: 866e1d9 (main-working = origin/main)
-- blog: ddfb154 (main)
+- LAB: 699106c (main-working = origin/main)
+- blog: d4af13e (main)
 
 ## Что сделано в сессии
 
@@ -104,15 +104,16 @@ handoff-protocol.
 
 ## Внешние системы
 
-- X: @Shaen___. Три поста: 019, 020, 021.
+- X: @Shaen___. Четыре поста: 019, 020, 021,
+  023. 022 не публиковался (third case не получен).
   Активность нулевая. Публикуется как фиксация,
-  не для охвата. 022 не публиковался.
+  не для охвата.
 - blog: https://shaenxxx-commits.github.io
   Posts: /019-trajectory/, /019-interaction/,
   /transcript-control/, /target-miss/,
   /020-named-divergence/, /021-named-divergence/,
   /022-named-divergence/, /023-no-default/
-  (коммит ddfb154).
+  (коммит d4af13e).
 - GitHub Pages: активен.
 - CORPUS: публикационный слой в corpus/.
   ru/ + en/ + publications/.
