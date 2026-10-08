@@ -156,6 +156,17 @@ objects, use a short descriptive slug.
   aggregation, content-effect vs interaction-effect.
   No bibliography; describes what LAB does and does
   not do, and methodological contributions.
+- `ru/023-no-default.md` / `en/023-no-default.md` —
+  POINT (RESULT + OPEN). Experiment 023: first
+  positive case for the no-default hypothesis.
+  Blind material (formulator outside LAB contour,
+  three materials generated in one pass, frozen
+  before preflight). Primary endpoint reached:
+  isolation split on v1 (Luna = keep, Sakana =
+  transfer). Named divergence in A2: YES — third
+  case (020, 021, 023). T-full = PARTIAL, T-pre-R =
+  NO. Level 023 = L2 / preliminary. No-default not
+  replicated (n=1).
 
 ## Publications
 
