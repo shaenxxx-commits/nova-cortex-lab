@@ -9,7 +9,7 @@ handoff-protocol.
 
 ## CURRENT STATE
 
-    HEAD: d4b8f76 (main-working = origin/main)
+    HEAD: 866e1d9 (main-working = origin/main)
     ACTIVE EXPERIMENT: none
     STATUS: closed
     LAST COMPLETED: 023 (L2 / preliminary, primary
@@ -41,15 +41,13 @@ handoff-protocol.
       - Заморозка METHOD — pending после replication.
       - Проверка no-default на v2 или v3 — отдельная
         серия, не 023.
-      - POINT 023 в CORPUS — не создан.
-      - Blog-пост 023 — не создан.
       - CURRENT STATE устаревает при каждом коммите;
         обновлять по мере значимых изменений.
 
 ## HEAD
 
-- LAB: d4b8f76 (main-working = origin/main)
-- blog: b4447d1 (main)
+- LAB: 866e1d9 (main-working = origin/main)
+- blog: ddfb154 (main)
 
 ## Что сделано в сессии
 
@@ -113,7 +111,8 @@ handoff-protocol.
   Posts: /019-trajectory/, /019-interaction/,
   /transcript-control/, /target-miss/,
   /020-named-divergence/, /021-named-divergence/,
-  /022-named-divergence/ (коммит b4447d1).
+  /022-named-divergence/, /023-no-default/
+  (коммит ddfb154).
 - GitHub Pages: активен.
 - CORPUS: публикационный слой в corpus/.
   ru/ + en/ + publications/.
