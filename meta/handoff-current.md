@@ -9,10 +9,11 @@ handoff-protocol.
 
 ## CURRENT STATE
 
-    HEAD: 466bedf (main-working = origin/main)
+    HEAD: 135f84b (main-working = origin/main)
     ACTIVE EXPERIMENT: none
     STATUS: closed
-    LAST COMPLETED: 022 (closed as not producing third case)
+    LAST COMPLETED: related-work POINT
+      (corpus/ru + en, коммит a68bda1)
     WORKING HYPOTHESES:
       - Named divergence: роль A2 (Luna) YES x2,
         роль B (Sakana) PARTIAL x2. Preliminary, n=2.
@@ -28,17 +29,17 @@ handoff-protocol.
       - v7 confounded: формулировка роли сама
         подсказывала ответ.
     PENDING DECISION:
-      - Related work в corpus/en/ (краткий POINT).
       - Заморозка METHOD — pending после replication.
       - Проверка гипотезы no-default — отдельная
-        серия, не 022.
-      - Публикация 021 в X — не сделана.
-    LAST RESPONSE NUMBER: 134 в этом чате.
+        серия (023), требует чистого дизайна.
+      - CURRENT STATE устаревает при каждом коммите;
+        обновлять по мере значимых изменений.
+    LAST RESPONSE NUMBER: 190 в этом чате.
 
 ## HEAD
 
-- LAB: 466bedf (main-working = origin/main)
-- blog: 761cb9e (main)
+- LAB: 135f84b (main-working = origin/main)
+- blog: b4447d1 (main)
 
 ## Что сделано в сессии
 
