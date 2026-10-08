@@ -129,7 +129,9 @@ handoff-protocol.
 ## Что не сделано
 
 - Группа B разбора Z:
-  - Related work в corpus/en/ (краткий POINT).
+  - Related work в corpus/en/ — сделан
+    (`corpus/ru/related-work.md` + `corpus/en/related-work.md`,
+    коммит a68bda1). Статус INTERPRETATION.
   - Заморозка METHOD (pending после replication).
 - Проверка гипотезы no-default — отдельная серия,
   не 022. Требует материала, где правило молчит
