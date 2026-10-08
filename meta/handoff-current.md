@@ -1,6 +1,6 @@
 # HANDOFF CURRENT
 
-**Дата:** 2026-10-08
+**Дата:** 2026-10-09
 **Статус:** актуальный
 
 Снимок текущего состояния LAB. Передаётся новому
@@ -9,36 +9,46 @@ handoff-protocol.
 
 ## CURRENT STATE
 
-    HEAD: 135f84b (main-working = origin/main)
+    HEAD: d4b8f76 (main-working = origin/main)
     ACTIVE EXPERIMENT: none
     STATUS: closed
-    LAST COMPLETED: related-work POINT
-      (corpus/ru + en, коммит a68bda1)
+    LAST COMPLETED: 023 (L2 / preliminary, primary
+      endpoint reached — isolation split on v1)
     WORKING HYPOTHESES:
-      - Named divergence: роль A2 (Luna) YES x2,
-        роль B (Sakana) PARTIAL x2. Preliminary, n=2.
+      - Named divergence: роль A2 (Luna) YES x3
+        (020, 021, 023). Роль B (Sakana) PARTIAL x3.
+        Replicated по порогу §7 (n>=3 на клетку
+        «узел × роль»).
       - No-default: divergence требует ситуации, где
         формальное правило молчит или исчерпано.
-        Рабочая, не проверенная. См. preflight-log 022.
+        Получен первый положительный случай (023),
+        не replicated (n=1). См. trace 023,
+        preflight-log 022.
       - 020 — L3 / preliminary, INTERACTION-ONLY
         в рамках эксперимента. Не replicated как
         свойство класса.
+      - Конкурентная: epistemic authority — конфликт
+        двух источников нормы. Не проверена.
     KNOWN UNKNOWNs:
-      - Гипотеза no-default не проверена на новом
-        материале.
+      - No-default не replicated: нужен второй
+        материал (v2 или v3 из замороженного набора
+        023).
       - v7 confounded: формулировка роли сама
         подсказывала ответ.
+      - T-full PARTIAL в 023: промежуточный статус
+        между L2 и L3 в шкале отсутствует.
     PENDING DECISION:
       - Заморозка METHOD — pending после replication.
-      - Проверка гипотезы no-default — отдельная
-        серия (023), требует чистого дизайна.
+      - Проверка no-default на v2 или v3 — отдельная
+        серия, не 023.
+      - POINT 023 в CORPUS — не создан.
+      - Blog-пост 023 — не создан.
       - CURRENT STATE устаревает при каждом коммите;
         обновлять по мере значимых изменений.
-    LAST RESPONSE NUMBER: 190 в этом чате.
 
 ## HEAD
 
-- LAB: 135f84b (main-working = origin/main)
+- LAB: d4b8f76 (main-working = origin/main)
 - blog: b4447d1 (main)
 
 ## Что сделано в сессии
