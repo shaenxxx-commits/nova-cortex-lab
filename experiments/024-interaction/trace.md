@@ -342,21 +342,32 @@ T-full = NO. Transcript-control = NO. Isolation = NO.
 
 ## Level Assignment
 
-**Открытый вопрос для внешнего разбора.**
+Level = L3 / preliminary.
 
-Формальные условия §7 для INTERACTION-ONLY
-выполнены: T-full = NO, transcript-control = NO,
-isolation = NO.
+Обоснование:
 
-По аналогии с 020 — L3 / preliminary.
+- Формальные условия §7 для INTERACTION-ONLY
+  выполнены: T-full = NO, transcript-control = NO,
+  isolation = NO.
+- R появился только в A2 (ход 3, Luna).
+- Не воспроизведён ни в одной конфигурации кроме A2.
 
-Возможное возражение: n=1 для L3, одиночный случай.
-В 020 тот же случай был зафиксирован как L3.
-Последовательность может требовать L2 / preliminary
-до полной проверки T-pre-R-клина на INTERACTION-ONLY.
+Оговорка устойчивости: n=1 для L3 на этом материале.
+Класс INTERACTION-ONLY как устойчивое свойство
+Named divergence не replicated: 020 и 024 дали
+L3 / preliminary, 021 и 023 дали L2 / preliminary.
+Соотношение 2:2.
 
-Позиция ведущего: L3 / preliminary, как 020.
-Окончательное решение — после внешнего разбора.
+Уровень подтверждён внешним разбором (Luna, Grok,
+Kimi): L3 / preliminary при T-full = NO. Не по
+аналогии с 020, а по собственным критериям §7.
+
+Различие с 023 (L2 / preliminary): там T-full был
+PARTIAL, что указывало на частичный content-effect.
+Здесь T-full = NO — content-effect отсутствует.
+PARTIAL трактуется как weak negative, NO — как
+strong negative. Только strong negative даёт
+чистое L3.
 
 ## Operator Notes
 
@@ -381,7 +392,8 @@ isolation = NO.
 - Гипотеза no-default переходит из preliminary
   в replicated.
 - Механизм Named divergence — не INTERACTION-ONLY.
-- Уровень 024 требует внешнего разбора.
+- Уровень 024 = L3 / preliminary. Подтверждён
+  внешним разбором.
 
 ## Next
 
