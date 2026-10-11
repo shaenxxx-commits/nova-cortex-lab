@@ -167,6 +167,18 @@ objects, use a short descriptive slug.
   case (020, 021, 023). T-full = PARTIAL, T-pre-R =
   NO. Level 023 = L2 / preliminary. No-default not
   replicated (n=1).
+- `ru/024-no-default.md` / `en/024-no-default.md` —
+  POINT (RESULT + OPEN). Experiment 024: replication
+  of the primary endpoint of 023. v2 (quality
+  control) — convergence; v3 (editorial slot) —
+  split. Primary endpoint 024 reached. No-default
+  replicated (2 of 3 materials; not universal).
+  Named divergence in A2: YES — fourth case
+  (020, 021, 023, 024). T-full = NO. Level 024 =
+  L3 / preliminary. Confound of Luna R1 on first
+  pass (external chat with context) — clean rerun
+  revealed the split. Sakana B=PARTIAL pattern
+  weakened (NO in 024).
 
 ## Publications
 
