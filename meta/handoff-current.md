@@ -1,6 +1,6 @@
 # HANDOFF CURRENT
 
-**Дата:** 2026-10-09
+**Дата:** 2026-10-18
 **Статус:** актуальный
 
 Снимок текущего состояния LAB. Передаётся новому
@@ -9,49 +9,51 @@ handoff-protocol.
 
 ## CURRENT STATE
 
-    HEAD: 866e1d9 (main-working = origin/main)
+    HEAD: c5b40e1 (main-working = origin/main)
     ACTIVE EXPERIMENT: none
-    STATUS: closed
-    LAST COMPLETED: 023 (L2 / preliminary, primary
-      endpoint reached — isolation split on v1)
+    STATUS: closed, морторий на material-runs
+      no-default
+    LAST COMPLETED: 024 (L3 / preliminary,
+      no-default replicated 2/3)
     WORKING HYPOTHESES:
-      - Named divergence: роль A2 (Luna) YES x3
-        (020, 021, 023). Роль B (Sakana) PARTIAL x3.
-        Replicated по порогу §7 (n>=3 на клетку
-        «узел × роль»).
-      - No-default: divergence требует ситуации, где
-        формальное правило молчит или исчерпано.
-        Получен первый положительный случай (023),
-        не replicated (n=1). См. trace 023,
-        preflight-log 022.
-      - 020 — L3 / preliminary, INTERACTION-ONLY
-        в рамках эксперимента. Не replicated как
-        свойство класса.
-      - Конкурентная: epistemic authority — конфликт
-        двух источников нормы. Не проверена.
+      - Named divergence: Luna A2=YES x4
+        (020, 021, 023, 024). Replicated по §7.
+        Sakana B=PARTIAL x3 + NO в 024. Паттерн
+        ослаблен, не опровергнут.
+      - No-default: supported 2/3, not universal.
+        v2 — сходимость, причина не установлена.
+        Гипотезы v2 (material-specific, frame-
+        specific, active/passive, symmetry of
+        stakes, positive vs negative duties) —
+        не проверены. См. open-questions после 024.
+      - 020 и 024 — L3 / preliminary. 021 и 023 —
+        L2 / preliminary. 2:2. ND-L3 как класс
+        не replicated.
+      - Конкурентная: epistemic authority. Не
+        проверена.
     KNOWN UNKNOWNs:
-      - No-default не replicated: нужен второй
-        материал (v2 или v3 из замороженного набора
-        023).
-      - v7 confounded: формулировка роли сама
-        подсказывала ответ.
-      - T-full PARTIAL в 023: промежуточный статус
-        между L2 и L3 в шкале отсутствует.
+      - v2 — причина сходимости не установлена.
+      - T-full NO/PARTIAL/YES — три режима,
+        не нормативная сущность в §14.
+      - Confound знания гипотезы: один случай.
     PENDING DECISION:
-      - Заморозка METHOD — pending после replication.
-      - Проверка no-default на v2 или v3 — отдельная
-        серия, не 023.
+      - Морторий на 025: 2–3 различимых
+        проверяемых предсказания для v2
+        должны быть зафиксированы до запуска.
+      - Правило изоляции: любой прогон с LAB/
+        hypothesis context → CONFOUND, не primary.
+      - Заморозка METHOD — pending.
       - CURRENT STATE устаревает при каждом коммите;
         обновлять по мере значимых изменений.
 
 ## HEAD
 
-- LAB: 7d647bd (main-working = origin/main)
+- LAB: c5b40e1 (main-working = origin/main)
 - blog: 6168e33 (main)
 
 ## Что сделано в сессии
 
-Сессия: 2026-10-06 — 2026-10-08.
+Сессия: 2026-10-06 — 2026-10-18.
 
 - L3 020 — принято решение: оставить без правок
   задним числом. §7 METHOD v4 разделяет уровень
