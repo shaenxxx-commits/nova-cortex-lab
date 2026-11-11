@@ -1,6 +1,6 @@
 # HANDOFF CURRENT
 
-**Дата:** 2026-10-18
+**Дата:** 2026-11-11
 **Статус:** актуальный
 
 Снимок текущего состояния LAB. Передаётся новому
@@ -9,12 +9,11 @@ handoff-protocol.
 
 ## CURRENT STATE
 
-    HEAD: c5b40e1 (main-working = origin/main)
+    HEAD: 1f19fbc (main-working = origin/main)
     ACTIVE EXPERIMENT: none
-    STATUS: closed, морторий на material-runs
-      no-default
-    LAST COMPLETED: 024 (L3 / preliminary,
-      no-default replicated 2/3)
+    STATUS: closed
+    LAST COMPLETED: 025 (закрыт, H6 не проверена
+      через material-run)
     WORKING HYPOTHESES:
       - Named divergence: Luna A2=YES x4
         (020, 021, 023, 024). Replicated по §7.
@@ -37,9 +36,12 @@ handoff-protocol.
         не нормативная сущность в §14.
       - Confound знания гипотезы: один случай.
     PENDING DECISION:
-      - Морторий на 025: 2–3 различимых
-        проверяемых предсказания для v2
-        должны быть зафиксированы до запуска.
+      - 026: смена ролей A/B на материале
+        Named divergence. Единственный чистый
+        тест «роль vs узел». Отложен с 020.
+      - H6 — метка без проверки. Кандидат на
+        другой метод (анализ текстов v1–v3
+        из 023, не генерация новых).
       - Правило изоляции: любой прогон с LAB/
         hypothesis context → CONFOUND, не primary.
       - Заморозка METHOD — pending.
@@ -48,12 +50,12 @@ handoff-protocol.
 
 ## HEAD
 
-- LAB: c5b40e1 (main-working = origin/main)
+- LAB: 1f19fbc (main-working = origin/main)
 - blog: 6168e33 (main)
 
 ## Что сделано в сессии
 
-Сессия: 2026-10-06 — 2026-10-18.
+Сессия: 2026-10-06 — 2026-11-11.
 
 - L3 020 — принято решение: оставить без правок
   задним числом. §7 METHOD v4 разделяет уровень
@@ -103,6 +105,34 @@ handoff-protocol.
   2) полный черновик, 3) паттерн сходимостей
   и новая гипотеза. Все три рекомендовали
   зафиксировать паттерн и не продолжать подбор.
+- 025 — проверка гипотезы H6 (locus of rule
+  failure). Design-gate v1–v4: четыре документа,
+  три раунда внешних, ноль прогонов. Отказ
+  от design-gate, переход к пилотам.
+  - Pilot 1 (L-after): сходимость, валиден.
+    H6 prediction supported на одном локусе.
+  - Pilot 2 (L-tie): сходимость, confounded.
+    Содержательная асимметрия за формальным
+    равенством.
+  - Pilot 3 (L-tie): сходимость, confounded.
+    Узел ввёл мета-правило (алфавит) вместо
+    выбора из меню.
+  - L-scope не проверялся. Граница размыта.
+  - Контраст для H6 не получен.
+- 025 закрыт через закрытие линии H6 в этой
+  форме, не через снятие мортория. H6 —
+  рабочая метка, не проверяемая гипотеза
+  через material-run.
+- Зафиксировано:
+  - `experiments/025-interaction/pilot-log.md`
+    (журнал, три пилота, финальный вывод).
+  - `experiments/025-interaction/materials/`
+    (pilot-1, pilot-2, pilot-3).
+  - `meta/open-questions.md` — раздел «Новые
+    вопросы после 025 (H6 не проверена)».
+- Урок: процедура проверки не заменяет проверку.
+  Design-gate v1–v4 — ноль прогонов. Пилоты —
+  три прогона за то же время.
 
 ## Внешние системы
 
