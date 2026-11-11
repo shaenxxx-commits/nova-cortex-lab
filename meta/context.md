@@ -51,26 +51,40 @@ Handoff-protocol в LAB — это DDA в миниатюре, применённ
 
 ## 5. Направление
 
-Состояние на 2026-10-05.
+Состояние на 2026-11-11.
 
 Закрыто:
 
-- 019 — TARGET_MISS.
+- 019 — TARGET_MISS, L1.
 - 020 — L3 / preliminary (Named divergence).
 - 021 — L2 / preliminary (Named divergence
   не replicated как INTERACTION-ONLY).
-- CORPUS — 6 POINT + 1 SEQUENCE в двух языках.
-- Блог + X — три публичных выхода.
+- 022 — third case не получен. Preflight
+  series, семь сходимостей.
+- 023 — L2 / preliminary. No-default,
+  первый положительный случай.
+- 024 — L3 / preliminary. No-default
+  replicated 2/3, не универсальна.
+- 025 — H6 не проверена через material-run.
+  Линия закрыта. H6 — метка без проверки.
+- CORPUS — 8 POINT + 1 SEQUENCE в двух языках
+  (019, 020, 021, 022, 023, 024, related-work,
+  transcript-control, target-miss).
+- Блог — 9 постов. X — пять постов
+  (019, 020, 021, 023, 024). 022 и 025
+  не публиковались.
 
 Ближайшие шаги:
 
-1. Related work в corpus/en/ — краткий POINT
-   о позиционировании относительно существующей
-   литературы.
-2. 022 — уточняющий Named divergence. Тот же Target,
-   другой материал, смена ролей A/B (опционально),
-   контроль T-full / T-pre-R.
-3. Заморозка METHOD — pending после replication.
+1. Направление следующего эксперимента
+   не определено. Решение — за Оператором.
+2. Заморозка METHOD — не выполнена, условие
+   не достигнуто (Named divergence replicated
+   как Target, но не как L3-класс; 2:2
+   по 020–024).
+3. H6 — метка без проверки. Кандидат на
+   другой метод: анализ текстов v1–v3 из 023,
+   не генерация новых.
 
 Масштабирование (n>4, top-tier модели) — после
 подтверждённого внешнего интереса.
