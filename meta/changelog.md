@@ -639,3 +639,116 @@ METHOD v4 — источник истины для будущих экспери
   - operator-preferences.md дополнен (режимы, вопросы,
     стиль, проверки, терминал).
 - Финальный снимок: meta/handoffs/2026-10-05-handoff-final.md.
+
+## 2026-10-06 — 2026-11-11 — Сессия ведущего
+
+Сессия: 2026-10-06 — 2026-11-11. HEAD на конец
+сессии: 39b387d.
+
+Компактная запись. Детали — в trace и логах
+экспериментов, на которые даны ссылки.
+
+### 022 — Named divergence, третья попытка
+
+- Семь preflight-итераций материала. Все —
+  сходимость A/B. Батарея не запускалась.
+- Preflight-log: `experiments/022-interaction/preflight-log.md`.
+- 022 закрыт как не давший third case Named
+  divergence.
+- Гипотеза no-default (рабочая, не проверенная):
+  divergence требует ситуации, где формальное
+  правило не разрешает случай.
+- POINT 022 в CORPUS (коммит 8464289), blog
+  (/022-named-divergence/, коммит b4447d1).
+  В X не публиковался.
+
+### 023 — No-default test
+
+- Прямая проверка no-default на материале v1
+  (бюджет подразделений). Blind-набор из трёх
+  материалов (v1–v3), формулировщик вне контура.
+- Primary endpoint достигнут: Luna R1 = сохранить,
+  Sakana R1 = передать.
+- Named divergence в A2: YES. T-full = PARTIAL.
+- Уровень 023 = L2 / preliminary.
+- Trace: `experiments/023-interaction/trace.md`.
+- POINT 023 в CORPUS, blog /023-no-default/,
+  X-пост.
+
+### 024 — No-default replication
+
+- v2 (контроль качества) — сходимость.
+  v3 (редакционное место) — split. Primary
+  endpoint 024 достигнут.
+- Confound Luna R1 на v3: первый заход из
+  внешнего чата с контекстом, дал «второй»;
+  чистый перепрогон — «первый», вскрыл split.
+- Named divergence в A2: YES. T-full = NO.
+- Уровень 024 = L3 / preliminary.
+- No-default replicated 2/3, не универсальна.
+- Trace: `experiments/024-interaction/trace.md`.
+- POINT 024 в CORPUS, blog /024-no-default/,
+  X-пост.
+
+### 025 — H6 (locus of rule failure)
+
+- Гипотеза от трёх чистых сессий (GPT-6, Grok,
+  Kimi без контекста LAB): split возникает,
+  когда правило не разрешает случай ВНУТРИ
+  применения (L-tie, L-scope). Сходимость —
+  когда правило отработало, вопрос ЗА пределами
+  (L-after).
+- Design-gate v1–v4: четыре документа, три
+  раунда внешних, ноль прогонов. Отказ от
+  design-gate, переход к пилотам.
+- Pilot 1 (L-after): сходимость, валиден.
+- Pilot 2 (L-tie): сходимость, confounded
+  (содержательная асимметрия).
+- Pilot 3 (L-tie): сходимость, confounded
+  (мета-правило, алфавит).
+- Контраст для H6 не получен. L-tie не
+  генерируется чисто.
+- 025 закрыт через закрытие линии H6, не через
+  снятие мортория. H6 — метка без проверки.
+- Pilot-log: `experiments/025-interaction/pilot-log.md`.
+- POINT 025 не создан — нет результата для
+  публикации.
+
+### Related work
+
+- POINT `corpus/ru/related-work.md` +
+  `corpus/en/related-work.md` (коммит a68bda1).
+  Позиционирование LAB относительно смежных
+  линий. Статус INTERPRETATION.
+
+### METHOD
+
+- Provisional freeze (v4.0-rc1, 2026-10-04)
+  остаётся. Условие снятия не выполнено:
+  Named divergence replicated как Target
+  (Luna A2=YES ×4), но не как L3-класс
+  (2:2 по 020–024).
+- Правок в METHOD по ходу сессии не было.
+
+### Уроки
+
+- Design-gate при шести-семи итерациях
+  переходит в рефлексию: документы вместо
+  прогонов. Лимит: до трёх пилотов на
+  гипотезу, затем external review или
+  закрытие линии.
+- Confound знания гипотезы: загрязнённая
+  сессия может дать иной ответ, чем чистая.
+  Правило изоляции: любой прогон с LAB/
+  hypothesis context → CONFOUND, не primary.
+- Процедура проверки не заменяет проверку.
+
+### Внешние
+
+- Luna, Grok, Kimi — постоянные внешние.
+  Отработали разборы 020, 021, 022, 023, 024,
+  025 (design-gate v1–v4, pilot).
+- Z — разовый разбор (2026-10-03).
+- Три чистые сессии (GPT-6, Grok, Kimi без
+  контекста) — формулировщик H6 и материалов
+  023/024.
