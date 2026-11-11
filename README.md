@@ -49,9 +49,12 @@
    experiments/000-template/ как experiments/NNN-<тема>/,
    заполнить input.md, вести trace.md по протоколу.
 
-4. Читать публикационный слой. corpus/ru/019-trajectory.md
-   (русский) или corpus/en/019-trajectory.md (английский).
-   Три POINT и один SEQUENCE вокруг эксперимента 019.
+4. Читать публикационный слой. corpus/ru/README.md
+   (русский) или corpus/en/README.md (английский).
+   Текущее состояние: 8 POINT (эксперименты 019–024,
+   related-work) и 1 SEQUENCE (019-trajectory).
+   Входная точка для чтения — corpus/ru/019-trajectory.md
+   или corpus/ru/023-no-default.md.
 
 Никаких заявок. Никаких разрешений. Правила в METHOD.md.
 
